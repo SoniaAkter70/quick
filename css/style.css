@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+/******header section css******/
+.container{
+	width: 1140px;
+	margin: auto;
+}
+.header{
+	width: 100%;
+	background-color: white;
+	padding: 20px 0px;
+	border-bottom: 2px solid #EAE7E7;
+	
+}
+
+.header-row{
+	display: flex;
+	justify-content: space-between;
+}
+.header-row ul li{
+	list-style: none;
+	display: inline-block;
+}
+.header-row ul li a{
+	margin-left: 20px;
+	font-size: 16px;
+	color: #112857;
+}
+.header-row ul li a:hover{
+	color: #0C66FF;
+}
+/******banner section css******/
+
+.banner{
+	width: 100%;
+	background-color: white;
+	padding: 40px 0px;
+}
+.b-content{
+	text-align: center;
+}
+.b-content h1{
+	color: #0F2656;
+	line-height: 1.5;
+	margin-bottom: 16px;
+	font-size: 50px;
+}
+.online{
+	color: #36A2FE;
+}
+.b-content p{
+	color: #112857;
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 25px;
+
+}
+.b-content img{
+	width: 71%;
+}
+/*******success section css*********/
+.success{
+	width: 100%;
+	padding: 50px 0px;
+}
+.s-row{
+	display: flex;
+
+
+}
+.s-left,.s-right{
+	flex-basis: 50%;
+	margin: 16px;
+}
+.s-left{
+	text-align: right;
+}
+.s-left h1{
+	font-size: 56px;
+	color: #F15767;
+}
+.s-left p{
+	font-size: 16px;
+	line-height: 1.5;
+	color: #656565;
+}
+.s-right h1{
+	font-size: 56px;
+	line-height: 1.2;
+	color: #0E2656;
+}
+/********creative section css**********/
+.creative{
+	width: 100%;
+	background-color: white;
+	padding: 50px 0px;
+}
+.c-row{
+	display: grid;
+	grid-template-columns: auto auto auto;
+
+}
+.c1{
+	background-color:#FDEBED;
+
+}
+.c2{
+	background-color: #EBF9F4;
+}
+.c3{
+	background-color: #FFF7E8;
+}
+.c1,.c2,.c3{
+	margin: 16px;
+	padding: 50px 20px;
+
+}
+.c-row img{
+	margin: auto;
+	width: 96%;
+}
+.c1 h3{
+	margin: 16px 0px;
+}
+.c2 h3{
+	margin: 30px 0px 16px 0px;
+}
+.c3 h3{
+	margin: 16px 0px;
+}
+.c-row p{
+	color: #656565;
+	font-size: 15px;
+}
+.c-row h3{
+	font-size: 18px;
+	color: #00205C;
+}
+/******footer section css*****/
+.footer{
+	width: 100%;
+	background-color: #008AFF;
+
+}
+.f-content{
+
+	padding: 30px 0px;
+	text-align: center;
+}
+.f-content p{
+   color: #96D0FF;
+   font-size: 14px;
+}
+.f-content span{
+	color: white;
+	font-weight: 700;
+	letter-spacing: 3px;
+}
